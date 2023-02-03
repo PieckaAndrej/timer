@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
       ),
+      darkTheme: ThemeData.dark(useMaterial3: true),
       home: const HomeScreen(),
     );
   }
